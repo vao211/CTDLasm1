@@ -28,6 +28,10 @@ public class test {
     public static void main(String[] args) {
         int[] arr = {64, 34, 1, 25, 12, 22, 11, 1, 90, 0};
         sort(arr);
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+        System.out.println("\n\n");
         sort2(arr);
         for (int num : arr) {
             System.out.print(num + " ");

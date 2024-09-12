@@ -82,7 +82,7 @@ public class Student {
         sb.append("\nStudent code: ").append(code).append("\n")
                 .append("Student name: ").append(name).append("\n")
                 .append("Point: ").append(point).append("\n")
-                .append("Student mark: ").append(mark).append("\n")
+                .append("Student mark: ").append(getMark()).append("\n")
                 .append("Subjects: \n");
 
         for (Subject subject : subjectList) {
